@@ -1,0 +1,17 @@
+|v> - oznacz porostu wektor w notacji diraca
+
+przyjmuje się że(baza obliczeniowa):
+|0> = (1,0)
+|1> = (0,1)
+
+faza globalna to wyciągnięcie przed nawias pewnego skalaru w postaci e^i*gamma gdzie skalar ten ma "długości" 1
+
+faza względna to np sklar stojący tylko przed jednym wektorem w superpozycji w postaci e^i*fi określa relację kątową między składnikami (wektorami bazowymi) stanu
+
+dlaczego potrzeba 2 liczba zamiast 4
+-1 z tego że prawdopodobieństwa są zależne od sibie
+-1 z tego że możemy "pozbyć się fazy globalnej" i zostawić tylko kąt określający relację między wektorami
+
+stany bella są splątane to znaczy Me matematycznie nie istnieje taka para pojedynczych stanów kubitowych, której iloczyn dałby takie stany.
+
+

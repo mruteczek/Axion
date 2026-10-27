@@ -21,18 +21,14 @@ def Ry(theta):
         dtype=complex,
     )
 
-def FynkcjaPomiaru(wektor, ilerazy = 1000):
-    prawdopodobienstwo = abs(wektor)**2
-
 hadamard =  H @ (H @ ket0)
 print( f"ket0={ket0},hadamard={hadamard}")
  
-
 #obwód bella według schematu z wykładu
 bell =  CNOT @ (np.kron(I,H) @ np.kron(ket0,ket0))
 print(bell)
 
-def pomiarkubitu(wektor):
+def pomiarstanu(wektor):
   v0 = abs(wektor[0]) ** 2
   v1 = abs(wektor[1]) ** 2
   v2 = abs(wektor[2]) ** 2
@@ -44,7 +40,7 @@ def pomiarkubitu(wektor):
       f"prawdopodobieństwo stanu 01={v2}, "
       f"prawdopodobieństwo stanu 10={v3}"
   )
-print(pomiarkubitu(bell))
+print(pomiarstanu(bell))
 
 
 
